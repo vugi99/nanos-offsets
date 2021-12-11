@@ -1,0 +1,74 @@
+
+
+html {
+    font-size: medium;
+    font-family: Verdana;
+    color: white;
+}
+
+body {
+    overflow: hidden;
+}
+
+#frame {
+    background-color: rgba(99, 99, 99, 0.93);
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+.ibasic {
+    text-align: center;
+    width: 80%;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    width: 80%;
+}
+
+.CategoryText {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#ALight, #CatLight {
+    color: yellow;
+}
+
+#Destroy {
+    margin-top: 15px;
+    color: red;
+}
+
+#SKMesh {
+    color: purple;
+}
+
+#SM {
+    color: blue;
+}
+
+.DescText {
+    font-size: small;
+    margin-top: 5px;
+}
+
+.Combo3Inputs {
+    text-align: center;
+    margin-left: -3px;
+    width: 30%;
+}
+
+.icolor {
+    margin-top: 10px;
+    width: 33%;
+}
+
+.ichbox {
+    width: 30%;
+    margin-top: 5px;
+}

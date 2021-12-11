@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Offsets</title>
+</head>
+<body>
+    <div id="frame">
+        <input class="ibasic" type="text" id="atype" placeholder="OFFSETS_Attach_Type">
+        <input class="ibasic" type="text" id="abone" placeholder="Attach_Bone">
+
+        <div class="CategoryText">Attach</div>
+
+        <input class="ibasic" type="text" id="model" placeholder="Model_Path">
+
+        <div class="DescText">SM Scale</div>
+        <input class="Combo3Inputs" type="number" id="sm_sx" placeholder="SX" value="1">
+        <input class="Combo3Inputs" type="number" id="sm_sy" placeholder="SY" value="1">
+        <input class="Combo3Inputs" type="number" id="sm_sz" placeholder="SZ" value="1">
+        <button id="SM">Attach Static Mesh</button>
+
+        <button id="ALight">Attach SpotLight</button>
+
+        <button id="Destroy">Destroy Attached</button>
+
+        <!--
+        <div class="CategoryText" id="CatLight">Last attached light Settings</div>
+
+        <input class="icolor" id="lightcolor" type="color">
+        <input class="ibasic" type="text" id="lighttype" placeholder="Light_Type">
+        <input class="ibasic" type="number" id="lightintensity" placeholder="Light_Intensity">
+        <input class="ibasic" type="number" id="lightattenuation_radius" placeholder="Attenuation_Radius">
+        <input class="ibasic" type="number" id="lightcone_angle" placeholder="Cone Angle">
+        <input class="ibasic" type="number" id="lightinner_cone_angle" placeholder="Inner Cone Angle">
+        <div class="DescText">Use physically based inverse</div>
+        <input class="ichbox" type="checkbox" id="lightpbi" checked>
+        <div class="DescText">Cast Shadows</div>
+        <input class="ichbox" type="checkbox" id="lightshadows" checked>
+        -->
+
+        <div class="CategoryText">Last Attached Offsets</div>
+
+        <div class="DescText">Location</div>
+        <input class="Combo3Inputs" type="number" id="attachedx" placeholder="X">
+        <input class="Combo3Inputs" type="number" id="attachedy" placeholder="Y">
+        <input class="Combo3Inputs" type="number" id="attachedz" placeholder="Z">
+
+        <div class="DescText">Rotation</div>
+        <input class="Combo3Inputs" type="number" id="attachedrx" placeholder="RX">
+        <input class="Combo3Inputs" type="number" id="attachedry" placeholder="RY">
+        <input class="Combo3Inputs" type="number" id="attachedrz" placeholder="RZ">
+    </div>
+
+    <script src="./offsets.js" type="text/javascript"></script>
+</body>
+</html>
