@@ -1,2 +1,2 @@
 # nanos-offsets
-A small package to try attach offsets
+# [Wiki](https://github.com/vugi99/nanos-offsets/wiki)
